@@ -63,12 +63,12 @@ class HtmlDialect(Dialect):
             },
         'erb:b': {
             'expand': True,
-            'opening_tag' : '<% $2 %>',
+            'opening_tag' : '<% %>',
             'closing_tag' : '<% end %>',
             },
         'erb:bp': {
             'expand': True,
-            'opening_tag' : '<%= $2 %>',
+            'opening_tag' : '<%= %>',
             'closing_tag' : '<% end %>',
             },
         'html:4t': {
